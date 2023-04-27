@@ -5,11 +5,11 @@ This is a example for calling **wasm** `Rust` function from `NodeJS`.
 ## Requirements
 
 - **node**
-    - https://nodejs.org/
+  - <https://nodejs.org/>
 - **wasm-bindgen-cli**
-    - https://crates.io/crates/wasm-bindgen-cli
+  - <https://crates.io/crates/wasm-bindgen-cli>
 - **cargo make (optional, can be run manually)**
-    - https://crates.io/crates/cargo-make
+  - <https://crates.io/crates/cargo-make>
 
 ## How to run?
 
