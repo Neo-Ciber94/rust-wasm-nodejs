@@ -1,0 +1,14 @@
+[package]
+name = "rust_wasm_nodejs"
+description = "A sample app to call rust-wasm from nodejs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_wasm_nodejs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+js-sys = "0.3.61"
+wasm-bindgen = "0.2.84"
+serde-wasm-bindgen = "0.4"

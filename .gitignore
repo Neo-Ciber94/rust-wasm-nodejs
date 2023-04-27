@@ -1,0 +1,4 @@
+/target
+/Cargo.lock
+/src/pkg
+node_modules

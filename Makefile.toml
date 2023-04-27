@@ -1,0 +1,17 @@
+[tasks.build-wasm]
+command = "cargo"
+args = ["build", "--target", "wasm32-unknown-unknown"]
+
+[tasks.bundle-wasm]
+command = "wasm-bindgen"
+args = [
+    "--typescript",
+    "--target",
+    "nodejs",
+    "--out-dir",
+    "src/pkg",
+    "target/wasm32-unknown-unknown/debug/rust_wasm_nodejs.wasm",
+]
+
+[tasks.build]
+dependencies = ["build-wasm", "bundle-wasm"]

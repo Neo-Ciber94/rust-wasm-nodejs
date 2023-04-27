@@ -1,0 +1,17 @@
+{
+  "name": "rust-wasm-nodejs",
+  "version": "1.0.0",
+  "description": "A sample app to call rust-wasm from nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
