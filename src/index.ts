@@ -1,5 +1,5 @@
 import http, { IncomingMessage, ServerResponse } from "http";
-import { handle_request } from "./pkg/rust_wasm_nodejs";
+import { handle_request } from "./pkg/rust_wasm_nodejs"; // <-- this is generated after build
 
 const port = process.env.PORT || 3000;
 
